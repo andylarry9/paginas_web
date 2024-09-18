@@ -1,0 +1,181 @@
+.uno {
+    background-color: #3b7;
+    width: 300px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+    /*transition: 1s;Tiempo de transicion de una actividad*/
+    /*animation: mio 5s infinite;animacion infinita en segundos*/
+    background-color: rgba(0, 0, 255,0.0);
+}
+
+  .unofondo{
+    background: url(img/robot.jpg);
+  } 
+
+
+
+
+
+
+   /* @keyframes mio{
+       /* 0%{left: 0px;top: 0px;}/*inicio del movimiento
+        25%{left: 20px;top: 70px;}/*el contenido se mueve de izquierda a arriba
+        50%{left: 20px;top: 70px;}/*el contenido se mueve de izquierda a arriba
+        75%{left: 20px;top: 70px;}/*el contenido se mueve de izquierda a arriba
+        100%{left: 0px;top: 0px;}/*fin del movimiento
+        0%{transform: rotate(0deg);}/*inicio del giro
+        25%{transform: rotate(90deg);}/*el contenido gira 90 grados
+        50%{transform: rotate(180deg);}/*el contenido gira 180 grados
+        75%{transform: rotate(365deg);}/*el contenido gira 365 grados
+        100%{transform: rotate(0deg);}/*fin del giro
+ }
+/*.uno:hover{
+background-color: blue;*/
+/*width: 450px;*/
+/*transform: translate(30px,50px);movimiento del contenido hacia la:derecha,abajo
+-webkit-transform:translate(90px,5px);para que sea compatible con google chrome*/
+/*transform: rotate(90deg);rota el contenido para cualquier direccion
+-webkit-transform:rotate(90deg);para que sea compatible con google chrome*/
+/*transform: scale(2,1);estira el contenido para cualquier direccion*/
+/*transform: skew(20deg,10deg);estira el contenido para cualquier direccion diagonalmente
+
+}
+/*.uno{
+  height: 400px;
+    /*border-radius: 20px;*/
+    /*box-shadow: 0px 0px 10px #000 ;*/
+    /*text-shadow: -3px 3px 4px #000;*/
+    /*background-image: url("img/robot.jpg");*/
+   /* background-repeat: no-repeat;
+    /*background-size: 200px;*/
+   /* background-origin: padding-box;
+    text-align: justify;
+    word-wrap: break-word;
+    column-count: 3;
+    -webkit-column-count:3;
+    column-gap: 30px;
+    -webkit-column-gap:30px;
+    column-rule:1px solid #ccc ;
+    -webkit-column-rule:2px dashed #ccc;
+    background-color: rgba(0, 0, 255,0.3);
+}
+
+
+.uno a{
+background-color: aqua;
+height: 30px;
+width: 100px;
+display: block;
+text-align: center;
+padding-top: 10px;
+border-radius: 20px;
+
+}
+
+/*.uno ul li{
+    /*list-style-image:url("img/food1.png");
+    list-style-position: outside;/*inside o outside
+    list-style-type:square;/*decimal, square,circle
+    font-size: 24px;
+
+}
+/*.uno table{
+    /*border: 1px solid red;CUADRTADO ALREDEDOR DEL CONTENIDO
+    border-collapse: separate;BORDE COLAPSADO
+    caption-side: top;LADO DEL SUBTITULO
+    empty-cells: show;CELDA VACIA
+
+
+}
+.uno table tr td{
+    border: 1px solid red;
+    /*background-color: #6c9;
+    padding: 5px;
+}
+.uno table tr th{
+     /*border: 1px solid red;
+    background-color: pink;
+    padding: 5px;
+}
+/*.dos{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+/*.uno table tr th{
+    border: 1px solid red;
+    background-color: #c9c;
+}
+.uno table caption{
+    color: blue;
+    font-size: 26px;
+}
+
+/*@font-face{
+    font-family: yo;
+    src: url("font/Raleway-Regular.ttf");
+} Cargar una fuente que este guardada en algun directorio
+
+.uno p{
+font-size: 20px;/*modifica el tamaño del texto
+color: blue; agrega color al texto
+font-family: yo; /*aplicar la fuente cargada
+/*text-shadow: 2px 2px 5px #000;agrega sombras en el texto.*/
+/*font: italic  24px "time new roman";fuente de estilo,peso,tamaño,family*/
+/*font-weight: bold;modifica el grosor del texto*/
+/*text-indent: 20px;tabulacion de la primera linea del parrafo*/
+/*text-align: right; alinear el texto a ala derecha de la pantalla*/
+/*text-decoration: overline;*/
+
+/*word-spacing: 30px;crea espacios entre palabras */
+/*line-height: 36px; crea un espacio entre lineas de texto*/
+
+/*text-transform: uppercase;transformar el texto en mayuscula.
+text-transform: lowercase;transformar el texto en minuscula.*/
+/*text-transform: capitalize;transforma la primera letra de cada palabra en mayuscula*/
+/*letter-spacing: 10px;* crea espacios entre letras
+    /*height: 500px;
+    border: 5px solid #0000ff;/* borde general
+    background: url("img/food1.png") no-repeat;
+    /*background-image: url("img/food1.png") no-repeat;imagen de fondo
+    background-position: 20px 50px;
+   /* background-repeat: repeat-x; repetir la imagen de fondo de forma horizontal
+    /*background-attachment: fixed;fijar la imagen de fondo
+    /*background-color: #fa6; color de fondo
+    /*background:#f00 url("img/robot.jpg")no-repeat fixed top;
+   /* border-style:solid;estilo del borde
+    border-width: 5px; ancho del borde
+    border-color: red; color del borde
+    /*width: 500px; ancho
+    /*min-width: 400px; ancho minimo
+     border: 1px solid purple;
+    margin: 0px;
+    /*height: 150px; modifica el alto del contenido*/
+   /* margin: 20px 30px 50px 10px;/*margen:arriba,derecha,abajo,izquierda
+   /*padding: 20px; modifica el relleno del contenido
+   margin: 20px; modifica el margen del contenido*/
+   
+/*}
+.uno a{
+    font-size: 30px;
+    text-decoration: blink;
+
+}
+
+   
+
+
+/*
+@media(min-width:400px),(max-width:500px){
+.uno{
+    border: 2px solid red;
+}
+}
+
+.dos{
+    border: 2px solid orange;
+    width: 500px;
+    height: 150px;
+    margin-top: 50px;
+}*/
